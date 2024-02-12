@@ -1,3 +1,33 @@
+## UPDATE:
+In this update to the README file:
+
+**Overview**:
+Introduced LLama 2 as a collection of pretrained and fine-tuned generative text models optimized for dialogue use cases.
+Highlighted their superiority over open-source chat models and comparable performance to closed-source models regarding helpfulness and safety.
+LLama 2 13B-chat Model:
+
+Detailed the purpose of the llama.cpp file, which runs the LLama model with 4-bit integer quantization on MacBook.
+Emphasized its optimization for Apple silicon and x86 architectures and its evolution from a web chat example to a development playground for ggml library features.
+
+**GGML Library**:
+Introduced GGML as a C library for machine learning, enabling the distribution of large language models (LLMs) and efficient execution on consumer hardware through quantization.
+Described GGML files containing binary-encoded data like version numbers, hyperparameters, vocabulary, and weights, with quantization reducing precision to optimize resource usage.
+
+**Quantized Models from Hugging Face Community**:
+Highlighted the availability of quantized models from the Hugging Face community for efficient utilization on the T4 GPU.
+Advised consulting reliable sources before using any model and expressed interest in variations based on the GGLM library.
+
+**Installation**:
+Outlined the steps for installing required packages and importing libraries to download and load the LLama-2-13B-chat-GGML model.
+Provided code snippets for each step, including installing packages, importing libraries, downloading the model, loading the model, loading test datasets, generating predictions, and evaluating performance.
+
+**Docker** 
+Added a docker file 
+
+**Bin file**
+found in [LINK]([url](https://drive.google.com/file/d/1vfUdXNOC7hCFMzmCJYxMMrrOR1RQCM9z/view?usp=sharing))
+
+
 # LeSICiN
 Dataset and codes for the paper "LeSICiN: A Heterogeneous Graph-based Approach for Automatic Legal Statute Identification from Indian Legal Documents", accepted and to be published at AAAI 2022.
 
